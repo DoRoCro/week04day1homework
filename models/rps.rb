@@ -10,6 +10,16 @@ class Rps
       else
         return "its a draw!"
       end
+    when "paper"
+      if hand2 == "rock"
+        return "paper wins!"
+      elsif hand2 == "scissors"
+        return "scissors wins!"
+      else
+        return "its a draw!"
+      end
+        
+
     end
   end
 
