@@ -6,5 +6,4 @@ require('pry')
 get "/rps/:hand1/:hand2" do
   rps = Rps.new(params[:hand1], params[:hand2])
   return rps.run
-  binding.pry
 end
