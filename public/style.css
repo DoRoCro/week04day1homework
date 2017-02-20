@@ -1,0 +1,13 @@
+body {
+  background-color: grey;
+}
+
+h1 {
+  background-color: red;
+}
+
+code {
+
+  font-weight: bold;
+  font-size: 20px;
+}
