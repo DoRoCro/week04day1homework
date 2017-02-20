@@ -4,4 +4,7 @@ require 'sinatra/contrib/all' if development?
 require('pry')
 
 get "/rps/:hand1/:hand2" do
-  return Rps.run(params[:hand1])
+  rps = Rps.new(params[:hand1], params[:hand2])
+  return rps.run
+  binding.pry
+end
