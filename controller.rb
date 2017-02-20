@@ -13,3 +13,7 @@ get "/rps/:hand1/:hand2" do
   @winner = rps.run
   erb :rps
 end
+
+get "/rps" do
+  erb :rps_home
+end
